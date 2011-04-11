@@ -1,0 +1,13 @@
+INSTALLATION
+
+1- Disable UAC if that is needed on your version of Windows OS.
+2- Reboot your machine (to take changes in effect).
+3- Execute install.bat (keep pressing ENTER when prompts appear)
+4- Configure notepad.ini (optional)
+
+If something fails in that install.bat (3):
+* Google as to how to take ownership of notepad.exe on your version of Windows.
+* Rename that notepad.exe (probably in C:\WINDOWS\System32\) to notepad2.exe.
+* Put all files from this .zip (INSTALL and INSTALL.bat excluded) in:
+  C:\WINDOWS\System32\
+
